@@ -58,8 +58,8 @@ const CategorySection = () => {
         className="mySwiper min-h-fit"
       >
         {categoryItems.map((categoryItem, index) => (
-          <SwiperSlide>
-            <div key={index}>
+          <SwiperSlide key={index}>
+            <div>
               <Image
                 src={categoryItem.image}
                 alt={categoryItem.title}
