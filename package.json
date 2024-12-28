@@ -1,12 +1,13 @@
 {
   "name": "baking-bari-website",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "release": "standard-version"
   },
   "dependencies": {
     "git-conventional-commits": "^2.7.1",
@@ -17,11 +18,17 @@
     "swiper": "^11.1.15"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.20",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "daisyui": "^4.12.22",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16",
     "typescript": "^5"
