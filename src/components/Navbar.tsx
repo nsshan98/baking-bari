@@ -6,10 +6,10 @@ const navItems = [
     item: "Home",
     path: "/",
   },
-  {
-    item: "About",
-    path: "/about",
-  },
+  // {
+  //   item: "About",
+  //   path: "/about",
+  // },
   {
     item: "Menu",
     path: "/menu",
@@ -49,7 +49,9 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a href="/" className="btn btn-ghost text-xl">
+            Baking Bari
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           {navItems.map((navItem, index) => (
