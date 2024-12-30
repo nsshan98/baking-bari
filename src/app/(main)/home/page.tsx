@@ -1,8 +1,7 @@
 import React from "react";
-import CarouselSection from "./CarouselSection";
-import CategorySection from "./CategorySection";
-import PopularItemsSection from "./PopularItemsSection";
 import { Metadata } from "next";
+import CategorySection from "./_components/CategorySection";
+import PopularItemsSection from "./_components/PopularItemsSection";
 
 export const metadata: Metadata = {
   title: "Home",

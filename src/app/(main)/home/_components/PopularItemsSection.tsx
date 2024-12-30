@@ -1,7 +1,7 @@
 "use client";
 import SectionText from "@/components/SectionText";
 import React, { useEffect, useState } from "react";
-import PopularItemsList from "./_components/PopularItemsList";
+import PopularItemsList from "./PopularItemsList";
 
 const PopularItemsSection = () => {
   const [popularMenu, setPopularMenu] = useState([]);
